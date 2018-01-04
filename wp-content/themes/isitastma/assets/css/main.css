@@ -434,20 +434,20 @@ img {
   }
 }
 @media (min-width: 320px) and (max-width: 768px) {
-  .homepage-banner {
+  .home-fluid .homepage-banner {
     min-height: 360px;
   }
-  .homepage-banner .download-guide {
+  .home-fluid .homepage-banner .download-guide {
     margin-left: 34%;
     bottom: 60px;
     width: 35%;
     top: auto;
   }
-  .homepage-banner .download-guide h1 {
+  .home-fluid .homepage-banner .download-guide h1 {
     font-size: 28px;
     text-shadow: 0px -1px 8px #461e1e;
   }
-  .homepage-banner .download-guide a {
+  .home-fluid .homepage-banner .download-guide a {
     font-size: 12px;
   }
 
@@ -459,7 +459,7 @@ img {
   }
 }
 @media (min-width: 320px) and (max-width: 375px) {
-  .homepage-banner .download-guide h1 {
+  .home-fluid .homepage-banner .download-guide h1 {
     font-size: 25px;
   }
 }
@@ -474,7 +474,7 @@ img {
     padding-left: 0px;
   }
 
-  .homepage-banner .download-guide {
+  .home-fluid .homepage-banner .download-guide {
     margin-left: 18%;
     bottom: 30px;
     width: 65%;
