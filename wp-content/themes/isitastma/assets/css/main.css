@@ -176,18 +176,18 @@ img {
   padding: 0px;
 }
 .footer-fluid .footer-container {
-  padding: 30px 0px 30px 30px;
+  padding: 30px 0px 20px 30px;
 }
 .footer-fluid .footer-container .footer-head {
   color: #434345;
   font-family: MontserratBold;
-  font-size: 14px;
+  font-size: 11px;
   margin-top: 0;
 }
 .footer-fluid .footer-container .footer-content {
   color: #434345;
   font-family: MontserratRegular;
-  font-size: 12.5px;
+  font-size: 9px;
   margin-bottom: 0;
   text-indent: -10px;
   margin-left: 10px;
@@ -196,7 +196,7 @@ img {
   padding: 0px;
 }
 .footer-fluid .footer-container .footer-icon {
-  padding-top: 18px;
+  padding-top: 8px;
   text-align: center;
 }
 .footer-fluid .footer-container .footer-icon img {
@@ -204,7 +204,7 @@ img {
   width: 45px;
 }
 .footer-fluid .footer-container .footer-icon.twitter-icon {
-  padding-top: 22px;
+  padding-top: 12px;
 }
 
 @media (min-width: 768px) and (max-width: 992px) {
@@ -253,7 +253,7 @@ img {
   font-size: 40px;
   font-weight: 600;
   margin: 4px 0 4px;
-  text-shadow: 0px -1px 7px #461e1e;
+  text-shadow: 0px -1px 6px #461e1e;
 }
 .home-fluid .homepage-banner .download-guide a {
   color: #d2e280;
@@ -261,7 +261,7 @@ img {
   font-size: 16px;
   font-weight: 600;
   text-decoration: none;
-  text-shadow: 0px 0px 5px #3a2b2b;
+  text-shadow: 0px 0px 4px #3a2b2b;
 }
 
 .intro-fluid {
