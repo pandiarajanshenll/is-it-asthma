@@ -176,18 +176,18 @@ img {
   padding: 0px;
 }
 .footer-fluid .footer-container {
-  padding: 30px 0px 20px 30px;
+  padding: 30px 0px 30px 30px;
 }
 .footer-fluid .footer-container .footer-head {
   color: #434345;
   font-family: MontserratBold;
-  font-size: 11px;
+  font-size: 14px;
   margin-top: 0;
 }
 .footer-fluid .footer-container .footer-content {
   color: #434345;
   font-family: MontserratRegular;
-  font-size: 9px;
+  font-size: 12.5px;
   margin-bottom: 0;
   text-indent: -10px;
   margin-left: 10px;
@@ -196,7 +196,7 @@ img {
   padding: 0px;
 }
 .footer-fluid .footer-container .footer-icon {
-  padding-top: 8px;
+  padding-top: 18px;
   text-align: center;
 }
 .footer-fluid .footer-container .footer-icon img {
@@ -204,7 +204,7 @@ img {
   width: 45px;
 }
 .footer-fluid .footer-container .footer-icon.twitter-icon {
-  padding-top: 12px;
+  padding-top: 22px;
 }
 
 @media (min-width: 768px) and (max-width: 992px) {
@@ -224,14 +224,21 @@ img {
   }
 }
 /*Homepage*/
-.homepage-banner {
+.iia-fluid {
+  padding: 0;
+}
+
+.home-fluid {
+  background: #091F1D;
+}
+.home-fluid .homepage-banner {
   background-image: url("../images/banner.jpg");
   background-position: center;
   background-size: cover;
   min-height: 657px;
   padding: 0;
 }
-.homepage-banner .download-guide {
+.home-fluid .homepage-banner .download-guide {
   background-color: #0BBCD5;
   border-radius: 31px;
   margin-left: 68px;
@@ -240,7 +247,7 @@ img {
   text-align: center;
   top: 56px;
 }
-.homepage-banner .download-guide h1 {
+.home-fluid .homepage-banner .download-guide h1 {
   color: #fff;
   font-family: 'MontserratRegular';
   font-size: 40px;
@@ -248,7 +255,7 @@ img {
   margin: 4px 0 4px;
   text-shadow: 0px -1px 7px #461e1e;
 }
-.homepage-banner .download-guide a {
+.home-fluid .homepage-banner .download-guide a {
   color: #d2e280;
   font-family: 'MontserratBold';
   font-size: 16px;
@@ -257,91 +264,118 @@ img {
   text-shadow: 0px 0px 5px #3a2b2b;
 }
 
-.asthma-intro {
+.intro-fluid {
+  background: #091F1D;
+}
+.intro-fluid .asthma-intro {
   background-color: #3f4041;
   color: #fff;
   padding: 36px 0px 34px;
   text-align: center;
 }
-.asthma-intro .intro-content {
+.intro-fluid .asthma-intro .intro-content {
   margin: auto;
   max-width: 800px;
 }
-.asthma-intro img {
+.intro-fluid .asthma-intro img {
   width: 60px;
 }
-.asthma-intro h3 {
+.intro-fluid .asthma-intro h3 {
   color: #1abcd5;
   font-family: MontserratMedium;
   font-size: 26px;
   font-weight: 600;
   margin: 12px 0px 18px;
 }
-.asthma-intro p {
+.intro-fluid .asthma-intro p {
   color: #fff;
   font-family: MontserratLight;
   font-size: 15px;
   margin-bottom: 24px;
 }
-.asthma-intro p span {
+.intro-fluid .asthma-intro p span {
   color: #1abcd5;
   font-family: MontserratBold;
   font-weight: 600;
 }
-.asthma-intro p:last-child {
+.intro-fluid .asthma-intro p:last-child {
   margin-bottom: 0px;
 }
 
-.user-does {
+/*.container-grid{
+	width:1170px;
+}*/
+.left-container {
+  width: 585px;
+  float: right;
   padding: 0px;
 }
-.user-does .left-details {
+
+.right-container {
+  width: 585px;
+  float: left;
+  padding: 0px;
+}
+
+.home-two-grid .left-grid {
+  background: #1abcd5;
+  min-height: 273px;
+  padding: 0px;
+}
+.home-two-grid .right-grid {
+  background-color: #e85225;
+  min-height: 273px;
+  padding: 0px;
+}
+
+.left-details {
   background-color: #1abcd5;
   padding: 44px 30px 40px 60px;
   clear: both;
   overflow: hidden;
 }
-.user-does .left-details img {
+.left-details img {
   max-height: 160px;
   max-width: 166px;
   width: auto;
 }
-.user-does .left-details p {
+.left-details p {
   color: #fff;
   font-family: MontserratMedium;
   font-size: 15px;
   padding-left: 50px;
 }
-.user-does .left-details p span {
+.left-details p span {
   color: #d2e280;
   font-family: MontserratBold;
 }
-.user-does .left-details div {
+.left-details div {
   padding: 0px;
 }
-.user-does .right-details {
+
+.right-details {
   background-color: #e85225;
   color: #fff;
   padding: 44px 40px 45px 40px;
 }
-.user-does .right-details h3 {
+.right-details h3 {
   font-family: MontserratMedium;
   font-size: 26px;
   margin-bottom: 8px;
   text-align: center;
 }
-.user-does .right-details p {
+.right-details p {
   font-family: MontserratLight;
   font-size: 15px;
 }
-.user-does .right-details p span {
+.right-details p span {
   color: #d2e280;
   font-family: MontserratBold;
 }
-.user-does .right-details p.white-span {
+.right-details p.white-span {
   margin-bottom: 22px;
 }
-.user-does .right-details p.white-span span {
+.right-details p.white-span span {
   color: #fff;
 }
 

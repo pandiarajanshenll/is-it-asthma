@@ -3,13 +3,18 @@
 <?php
 get_header();
 ?>
-	<div class="container homepage-container">
-		<div class="col-md-12 homepage-banner">
-			<div class="download-guide">
-				<h1>Is It Asthma?</h1>
-				<p><a href="javascript:">DOWNLOAD THE GUIDE</a></p>
+	<div class="container-fluid iia-fluid home-fluid">
+		<div class="container homepage-container">
+			<div class="col-md-12 homepage-banner">
+				<div class="download-guide">
+					<h1>Is It Asthma?</h1>
+					<p><a href="javascript:">DOWNLOAD THE GUIDE</a></p>
+				</div>
 			</div>
 		</div>
+	</div>
+
+	<div class="container-fluid iia-fluid intro-fluid">
 		<div class="col-md-12 asthma-intro">
 			<div class="intro-content">
 				<img src="<?php echo THEME_URL.'/assets/images/liver-red.png';?>"></img>
@@ -19,8 +24,11 @@ get_header();
 				<p><span>Diagnosing asthma</span> can be trickier than you think. There is no single test to determine if you have asthma. To make a diagnosis, your doctor will look at your symptoms and may perform some physical tests.</p>
 			</div>
 		</div>
-		<div class="col-md-12 user-does">
-			<div class="col-md-6 left-details">
+	</div>
+
+	<div class="container-fluid iia-fluid home-two-grid">
+		<div class="col-md-6 col-sm-6 col-xs-12 left-grid">
+			<div class="left-container left-details">
 				<div class="col-sm-4">
 					<img src="<?php echo THEME_URL.'/assets/images/user.png';?>"></img>
 				</div>
@@ -28,12 +36,20 @@ get_header();
 					<p>In some cases, people are misdiagnosed with asthma when they actually have a different condition. Recently, Canadian researchers studied more than 600 adults diagnosed with asthma in the past 5 years. <span>They found that about one-third of them didn’t truly have asthma.</span></p>
 				</div>
 			</div>
-			<div class="col-md-6 right-details">
+		</div>
+		<div class="col-md-6 col-sm-6 col-xs-12 right-grid">
+			<div class="right-container right-details">
 				<h3>So what does this mean for you?</h3>
 				<p class="white-span">If you are on a <span>treatment plan for asthma</span> but the treatment doesn’t seem to be working, you might not have asthma. Or you may need a different type of asthma medicine.</p>
 				<p>When it comes to managing your health, you want the best treatment possible. <span>This means you have to start by getting the right diagnosis for your symptoms.</span></p>
 			</div>
 		</div>
+	</div>
+
+	<div class="container homepage-container">
+		
+		
+		
 		<div class="col-md-12 homepage-diagnosis">
 			<div class="diagnosis-content">
 				<img src="<?php echo THEME_URL.'/assets/images/diagnosis.png'; ?>"></img>
