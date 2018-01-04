@@ -5,13 +5,13 @@
 get_header();
 ?>
 	<div class="container-fluid iia-fluid symptoms-fluid">
-		<div class="col-md-6 col-sm-6 col-xs-12 left-grid">
+		<div class="col-md-6 col-sm-12 col-xs-12 left-grid">
 			<div class="left-container symptoms-left">
 				<img src="<?php echo THEME_URL.'/assets/images/page2_banner.jpg';?>"></img>
 			</div>
 		</div>
 
-		<div class="col-md-6 col-sm-6 col-xs-12 right-grid">
+		<div class="col-md-6 col-sm-12 col-xs-12 right-grid">
 			<div class="right-container symptoms-right">
 				<img src="<?php echo THEME_URL.'/assets/images/liver-red.png';?>"></img>
 				<h3>Asthma Symptoms</h3>

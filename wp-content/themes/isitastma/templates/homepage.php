@@ -27,7 +27,7 @@ get_header();
 	</div>
 
 	<div class="container-fluid iia-fluid home-two-grid">
-		<div class="col-md-6 col-sm-6 col-xs-12 left-grid">
+		<div class="col-md-6 col-sm-12 left-grid">
 			<div class="left-container left-details">
 				<div class="col-sm-4">
 					<img src="<?php echo THEME_URL.'/assets/images/user.png';?>"></img>
@@ -37,7 +37,7 @@ get_header();
 				</div>
 			</div>
 		</div>
-		<div class="col-md-6 col-sm-6 col-xs-12 right-grid">
+		<div class="col-md-6 col-sm-12 right-grid">
 			<div class="right-container right-details">
 				<h3>So what does this mean for you?</h3>
 				<p class="white-span">If you are on a <span>treatment plan for asthma</span> but the treatment doesn’t seem to be working, you might not have asthma. Or you may need a different type of asthma medicine.</p>

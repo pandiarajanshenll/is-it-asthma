@@ -36,9 +36,13 @@ get_header();
 		</div>
 
 		<div class="col-md-6 col-sm-6 col-xs-12 right-grid">
-			<div class="right-container misdiagnosing-asthma">
-				<img src="<?php echo THEME_URL.'/assets/images/page3_banner.jpg'; ?>" class="img-banner">
-				<div class="col-md-12 col-sm-12 col-xs-12 misdiagnosing">
+			<div class="col-xs-12 banner-image">
+				<div class="right-container">
+					<img src="<?php echo THEME_URL.'/assets/images/page3_banner.jpg'; ?>" class="img-banner">
+				</div>
+			</div>
+			<div class="col-xs-12 page-content">
+				<div class="right-container misdiagnosing misdiagnosing-asthma">
 					<img src="<?php echo THEME_URL.'/assets/images/diagnosis-white.png'; ?>" class="diagnosis-white">
 					<h3>Misdiagnosing Asthma</h3>
 					<p>Whether you have asthma or another condition, the right diagnosis means better quality of life. Following the right treatment plan can improve your physical, mental and financial well-being.</p>
