@@ -347,72 +347,72 @@ img {
 		background:#1abcd5;
     	min-height: 273px;
     	padding: 0px;
+
+    	.left-details {
+			background-color: #1abcd5;
+			padding: 44px 30px 40px 60px;
+			clear: both;
+			overflow: hidden;
+
+			img {
+				max-height: 160px;
+				max-width: 166px;
+				width: auto;
+			}
+
+			p {
+				color: #fff;
+				font-family: MontserratMedium;
+				font-size: 15px;
+				padding-left: 50px;
+
+				span {
+					color: #d2e280;
+					font-family: MontserratBold;
+				}
+			}
+
+			div {
+				padding: 0px;
+			}
+		}
 	}
 	.right-grid{
 		background-color: #e85225;
 		min-height: 273px;
 		padding: 0px;
-	}
-}
 
-.left-details {
-	background-color: #1abcd5;
-	padding: 44px 30px 40px 60px;
-	clear: both;
-	overflow: hidden;
+		.right-details {
+			background-color: #e85225;
+			color: #fff;
+			padding: 44px 40px 45px 40px;
 
-	img {
-		max-height: 160px;
-		max-width: 166px;
-		width: auto;
-	}
+			h3 {
+				font-family: MontserratMedium;
+				font-size: 26px;
+				margin-bottom: 8px;
+				text-align: center;
+			}
 
-	p {
-		color: #fff;
-		font-family: MontserratMedium;
-		font-size: 15px;
-		padding-left: 50px;
+			p {
+				font-family: MontserratLight;
+				font-size: 15px;
 
-		span {
-			color: #d2e280;
-			font-family: MontserratBold;
-		}
-	}
+				span {
+					color: #d2e280;
+					font-family: MontserratBold;
+				}
 
-	div {
-		padding: 0px;
-	}
-}
+				&.white-span {
+					margin-bottom: 22px;
 
-.right-details {
-	background-color: #e85225;
-	color: #fff;
-	padding: 44px 40px 45px 40px;
+					span {
+						color: #fff;
+					}
+				}
 
-	h3 {
-		font-family: MontserratMedium;
-		font-size: 26px;
-		margin-bottom: 8px;
-		text-align: center;
-	}
-
-	p {
-		font-family: MontserratLight;
-		font-size: 15px;
-
-		span {
-			color: #d2e280;
-			font-family: MontserratBold;
-		}
-
-		&.white-span {
-			margin-bottom: 22px;
-
-			span {
-				color: #fff;
 			}
 		}
-
 	}
 }
 
@@ -554,135 +554,145 @@ img {
 }
 
 /*Symptoms page*/
-.symptoms-content {
+.symptoms-fluid{
 	padding: 0px;
-
-	.symptoms-left {
+	.left-grid{
+		background: #264E8E;
 		padding: 0px;
+		.symptoms-left {
+			padding: 0px;
+		}
 	}
 
-	.symptoms-right {
-		background-color: #1abcd5;
-		color: #fff;
-		padding: 56px 76px 40px 76px;
-		text-align: center;
+	.right-grid{
+		background: #00BCD2;
+		padding: 0px;
+		.symptoms-right {
+			background-color: #1abcd5;
+			color: #fff;
+			padding: 69px 76px 40px 76px;
+			text-align: center;
 
-		img {
-			width: 58px;
-			height: 45px;
-		}
+			img {
+				width: 58px;
+				height: 45px;
+			}
 
-		h3 {
-			font-family: MontserratMedium;
-			font-size: 26px;
-			margin: 22px 0 18px;
-		}
+			h3 {
+				font-family: MontserratMedium;
+				font-size: 26px;
+				margin: 22px 0 18px;
+			}
 
-		p {
-			font-family: MontserratLight;
-			font-size: 16px;
-			text-align: left;
-		}
-		ul {
-			text-align: left;
-			padding-left: 18px;
-			li {
+			p {
 				font-family: MontserratLight;
-				font-size: 15px;
-				margin-bottom: 2px;
+				font-size: 16px;
+				text-align: left;
+			}
+			ul {
+				text-align: left;
+				padding-left: 18px;
+				li {
+					font-family: MontserratLight;
+					font-size: 15px;
+					margin-bottom: 2px;
+				}
 			}
 		}
 	}
 }
 
-.asthma-diagnosis {
+.asthma-diagnosis-fluid{
 	background-color: #3f4041;
-	color: #fff;
-	padding: 24px 0px;
-	text-align: center;
+	.asthma-diagnosis {
+		background-color: #3f4041;
+		color: #fff;
+		padding: 24px 0px;
+		text-align: center;
 
-	.asthma-diagnosis-head, .diagnosis-details {
-		max-width: 990px;
-		margin: auto;
-	}
-
-	.asthma-diagnosis-head{
-		img {
-			height: 60px;
-			width: 80px;
+		.asthma-diagnosis-head, .diagnosis-details {
+			max-width: 990px;
+			margin: auto;
 		}
 
-		h3 {
-			font-family: MontserratMedium;
-			font-size: 26px;
-			color: #1abcd5;
-			margin: 11px 0px 15px;
-		}
-
-		p {
-			font-family: MontserratRegular;
-			font-size: 15px;
-			color: #fff;
-			text-align: left;
-			margin-bottom: 22px;
-
-			span {
-				color: #1abcd5;
-				font-family: MontserratMedium;
+		.asthma-diagnosis-head{
+			img {
+				height: 60px;
+				width: 80px;
 			}
-		}
-	}
 
-	.diagnosis-details {
-		overflow: hidden;
-		clear: both;
-
-		img {
-			height: 66px;
-			margin-top: 10px;
-			width: 66px;
-		}
-
-		p {
-			font-family: MontserratRegular;
-			font-size: 15px;
-			color: #fff;
-			text-align: left;
-			margin-left: 5px;
-
-			span {
-				color: #1abcd5;
+			h3 {
 				font-family: MontserratMedium;
+				font-size: 26px;
+				color: #1abcd5;
+				margin: 11px 0px 15px;
+			}
+
+			p {
+				font-family: MontserratRegular;
+				font-size: 15px;
+				color: #fff;
+				text-align: left;
+				margin-bottom: 22px;
+
+				span {
+					color: #1abcd5;
+					font-family: MontserratMedium;
+				}
 			}
 		}
 
-		div {
-			margin-bottom: 22px;
-			padding: 0;
+		.diagnosis-details {
+			overflow: hidden;
+			clear: both;
 
-			ul {
-				list-style-type: none;
-				margin-top: 25px;
-				li {
-					margin-bottom: 25px;
-					padding-left: 50px;
-					&::before {
-						content: "\2022";
-						color: #1abcd5;
-						margin-left: -1em;
-						float: left;
-						font-size: 22px;
-						margin-top: -5px;
-					}
+			img {
+				height: 66px;
+				margin-top: 10px;
+				width: 66px;
+			}
 
-					p {
-						margin-left: 0px;
-					}
+			p {
+				font-family: MontserratRegular;
+				font-size: 15px;
+				color: #fff;
+				text-align: left;
+				margin-left: 5px;
+
+				span {
+					color: #1abcd5;
+					font-family: MontserratMedium;
 				}
 			}
 
-			&:last-child {
-				margin-bottom: 0px;
+			div {
+				margin-bottom: 22px;
+				padding: 0;
+
+				ul {
+					list-style-type: none;
+					margin-top: 25px;
+					li {
+						margin-bottom: 25px;
+						padding-left: 50px;
+						&::before {
+							content: "\2022";
+							color: #1abcd5;
+							margin-left: -1em;
+							float: left;
+							font-size: 22px;
+							margin-top: -5px;
+						}
+
+						p {
+							margin-left: 0px;
+						}
+					}
+				}
+
+				&:last-child {
+					margin-bottom: 0px;
+				}
 			}
 		}
 	}
@@ -729,65 +739,74 @@ img {
 }
 
 /*Misdiagnosing page*/
-.misdiag-container{
-	padding: 0px;
-	.asthma-like-conditions{
-		background-color: #3f4041;
-		color: #fff;
-		text-align: center;
-		min-height: 960px;
-		padding: 30px 48px;
-		img{
-			width: 58px;
-			height: 45px;
+.misdiag-fluid{
+	.left-grid{
+		background:#3f4041;
+		padding:0;
+
+		.asthma-like-conditions{
+			background-color: #3f4041;
+			color: #fff;
+			text-align: center;
+			min-height: 960px;
+			padding: 30px 48px;
+			img{
+				width: 58px;
+				height: 45px;
+			}
+		}	
+		h3{
+			color: #1abcd5;
+			font-family: MontserratMedium;
+			font-size: 26px;
+			margin: 22px 0 18px;
 		}
-	}	
-	h3{
-		color: #1abcd5;
-		font-family: MontserratMedium;
-		font-size: 26px;
-		margin: 22px 0 18px;
-	}
-	p{
-		color: #fff;
-		font-family: MontserratRegular;
-		font-size: 15px;
-		padding-bottom: 25px;
-		text-align: left;
-	}
-	ul{
-		padding-left: 40px;
-		padding-bottom: 25px;
-		li{
+		p{
 			color: #fff;
 			font-family: MontserratRegular;
 			font-size: 15px;
+			padding-bottom: 25px;
 			text-align: left;
-			line-height: 23px;
+		}
+		ul{
+			padding-left: 40px;
+			padding-bottom: 25px;
+			li{
+				color: #fff;
+				font-family: MontserratRegular;
+				font-size: 15px;
+				text-align: left;
+				line-height: 23px;
+			}
 		}
 	}
-	.misdiagnosing-asthma{
-		background-color: #1abcd5;
-		text-align: center;
-		min-height: 960px;
-		padding: 0;
-		.misdiagnosing{
-			padding: 30px 48px;
-		}
-		.diagnosis-white{
-			height: 60px;
-			width: 80px;
-		}
-		h3{
-			color: #fff;
-			font-family: MontserratMedium;
-			font-size: 26px;
-		}
-		img {
-			max-height: 300px;
+
+	.right-grid{
+		padding:0;
+		.misdiagnosing-asthma{
+			background-color: #1abcd5;
+			text-align: center;
+			min-height: 960px;
+			padding: 0;
+			.misdiagnosing{
+				padding: 30px 48px;
+			}
+			.diagnosis-white{
+				height: 60px;
+				width: 80px;
+			}
+			h3{
+				color: #fff;
+				font-family: MontserratMedium;
+				font-size: 26px;
+			}
+			img {
+				max-height: 300px;
+			}
 		}
 	}
 }
+
 @media (min-width: 768px) {
 	.misdiag-container {
 		.asthma-like-conditions, .misdiagnosing-asthma {

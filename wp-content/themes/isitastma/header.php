@@ -9,7 +9,7 @@
 	<?php endif; ?>
 	<?php wp_head(); ?>
 </head>
-<body>
+<body <?php body_class();?>>
 <!-- header start -->
 	<div class="container-fluid asthma-fluid">
 		<div class="container asthma-container">
