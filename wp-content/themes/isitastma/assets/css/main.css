@@ -1,0 +1,698 @@
+@font-face {
+  src: url(fonts/Montserrat-Bold.otf);
+  font-family: MontserratBold;
+}
+@font-face {
+  src: url(fonts/Montserrat-Medium.otf);
+  font-family: MontserratMedium;
+}
+@font-face {
+  src: url(fonts/Montserrat-Regular.otf);
+  font-family: MontserratRegular;
+}
+@font-face {
+  src: url(fonts/Montserrat-Light.otf);
+  font-family: MontserratLight;
+}
+html, body, h1, h2, h3, h4, h5, h6, p, ul, li, a {
+  padding: 0px;
+  margin: 0px;
+}
+
+img {
+  width: 100%;
+}
+
+.container {
+  padding: 0px;
+}
+
+/*Header*/
+.asthma-fluid {
+  background-color: #fff;
+  border-color: #fff;
+  box-shadow: 0 5px 28px #585757;
+  padding: 40px 0 26px;
+  z-index: 999;
+}
+
+.asthma-container {
+  padding: 0px 50px;
+}
+.asthma-container .aafa-logo {
+  float: right;
+  text-align: right;
+  padding-bottom: 34px;
+}
+.asthma-container .mobile-aafa-logo {
+  display: none;
+}
+.asthma-container .navbar-header {
+  position: relative;
+  top: 13px;
+}
+.asthma-container .navbar-header .navbar-brand {
+  height: auto;
+  padding: 15px 15px;
+}
+.asthma-container .navbar-header .navbar-toggle {
+  border-color: #ddd;
+}
+.asthma-container .navbar-header .navbar-toggle .icon-bar {
+  background-color: #888;
+}
+.asthma-container .asthma-navbar {
+  padding: 0px;
+}
+.asthma-container .asthma-navbar ul .menu-item {
+  padding: 0px 15px;
+}
+.asthma-container .asthma-navbar ul .menu-item a {
+  background-color: transparent;
+  border-radius: 0px;
+  color: #515251;
+  font-family: MontserratBold;
+  font-size: 15px;
+  padding: 5px;
+}
+.asthma-container .asthma-navbar ul .menu-item.current-menu-item a {
+  border-bottom: 5px solid #1abcd5;
+}
+
+@media (min-width: 1200px) {
+  .asthma-container .navbar-header .navbar-brand img {
+    height: 148px;
+    width: 290px;
+  }
+}
+@media (min-width: 0px) and (max-width: 767px) {
+  .asthma-fluid {
+    padding: 15px 5px 15px;
+  }
+
+  .asthma-container {
+    padding: 0px 20px;
+  }
+  .asthma-container .aafa-logo {
+    float: none;
+    text-align: center;
+    padding-bottom: 0px;
+    margin: auto;
+  }
+  .asthma-container .aafa-logo img {
+    height: 50px;
+  }
+  .asthma-container .mobile-aafa-logo {
+    display: block;
+    text-align: center;
+  }
+  .asthma-container .mobile-aafa-logo img {
+    height: 50px;
+    width: 40%;
+  }
+  .asthma-container .navbar-header {
+    top: 0px;
+  }
+  .asthma-container .navbar-header .navbar-brand {
+    width: 30%;
+    padding: 0px 10px;
+  }
+  .asthma-container .asthma-navbar ul {
+    margin: 7.5px 0px;
+  }
+  .asthma-container .asthma-navbar ul .menu-item {
+    padding: 0px 15px;
+    margin-left: 0px;
+  }
+  .asthma-container .asthma-navbar ul .menu-item a {
+    font-size: 12px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .asthma-container {
+    padding: 0px 0px;
+  }
+  .asthma-container .aafa-logo {
+    padding-bottom: 0px;
+  }
+  .asthma-container .aafa-logo img {
+    height: 75px;
+    width: 220px;
+  }
+  .asthma-container .navbar-header {
+    top: 23px;
+  }
+  .asthma-container .navbar-header .navbar-brand {
+    width: 50%;
+    padding: 0px 10px;
+  }
+  .asthma-container .asthma-navbar ul .menu-item {
+    padding: 0px 10px;
+  }
+  .asthma-container .asthma-navbar ul .menu-item a {
+    font-size: 12px;
+  }
+  .asthma-container .navbar-right {
+    margin-right: 0px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1200px) {
+  .asthma-container {
+    padding: 0px 0px;
+  }
+  .asthma-container .aafa-logo img {
+    height: 75px;
+  }
+  .asthma-container .navbar-header .navbar-brand {
+    width: 50%;
+    padding: 0px 10px;
+  }
+  .asthma-container .aafa-logo {
+    padding-bottom: 0px;
+  }
+}
+.footer-fluid {
+  background-color: #e6e7e8;
+  padding: 0px;
+}
+.footer-fluid .footer-container {
+  padding: 30px 0px 20px 30px;
+}
+.footer-fluid .footer-container .footer-head {
+  color: #434345;
+  font-family: MontserratBold;
+  font-size: 11px;
+  margin-top: 0;
+}
+.footer-fluid .footer-container .footer-content {
+  color: #434345;
+  font-family: MontserratRegular;
+  font-size: 9px;
+  margin-bottom: 0;
+  text-indent: -10px;
+  margin-left: 10px;
+}
+.footer-fluid .footer-container .social-menu {
+  padding: 0px;
+}
+.footer-fluid .footer-container .footer-icon {
+  padding-top: 8px;
+  text-align: center;
+}
+.footer-fluid .footer-container .footer-icon img {
+  height: auto;
+  width: 45px;
+}
+.footer-fluid .footer-container .footer-icon.twitter-icon {
+  padding-top: 12px;
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  .footer-fluid .footer-container {
+    padding: 30px 0px;
+  }
+}
+@media (min-width: 0px) and (max-width: 767px) {
+  .footer-fluid .footer-container {
+    padding: 30px 0px;
+  }
+  .footer-fluid .footer-container .twitter-icon a {
+    float: right;
+  }
+  .footer-fluid .footer-container .fb-icon a {
+    float: left;
+  }
+}
+/*Homepage*/
+.homepage-banner {
+  background-image: url("../images/banner.jpg");
+  background-position: center;
+  background-size: cover;
+  min-height: 657px;
+  padding: 0;
+}
+.homepage-banner .download-guide {
+  background-color: #0BBCD5;
+  border-radius: 31px;
+  margin-left: 68px;
+  padding: 10px 15px 10px 25px;
+  position: absolute;
+  text-align: center;
+  top: 56px;
+}
+.homepage-banner .download-guide h1 {
+  color: #fff;
+  font-family: 'MontserratRegular';
+  font-size: 40px;
+  font-weight: 600;
+  margin: 4px 0 4px;
+  text-shadow: 0px -1px 7px #461e1e;
+}
+.homepage-banner .download-guide a {
+  color: #d2e280;
+  font-family: 'MontserratBold';
+  font-size: 16px;
+  font-weight: 600;
+  text-decoration: none;
+  text-shadow: 0px 0px 5px #3a2b2b;
+}
+
+.asthma-intro {
+  background-color: #3f4041;
+  color: #fff;
+  padding: 36px 0px 34px;
+  text-align: center;
+}
+.asthma-intro .intro-content {
+  margin: auto;
+  max-width: 800px;
+}
+.asthma-intro img {
+  width: 60px;
+}
+.asthma-intro h3 {
+  color: #1abcd5;
+  font-family: MontserratMedium;
+  font-size: 26px;
+  font-weight: 600;
+  margin: 12px 0px 18px;
+}
+.asthma-intro p {
+  color: #fff;
+  font-family: MontserratLight;
+  font-size: 15px;
+  margin-bottom: 24px;
+}
+.asthma-intro p span {
+  color: #1abcd5;
+  font-family: MontserratBold;
+  font-weight: 600;
+}
+.asthma-intro p:last-child {
+  margin-bottom: 0px;
+}
+
+.user-does {
+  padding: 0px;
+}
+.user-does .left-details {
+  background-color: #1abcd5;
+  padding: 44px 30px 40px 60px;
+  clear: both;
+  overflow: hidden;
+}
+.user-does .left-details img {
+  max-height: 160px;
+  max-width: 166px;
+  width: auto;
+}
+.user-does .left-details p {
+  color: #fff;
+  font-family: MontserratMedium;
+  font-size: 15px;
+  padding-left: 50px;
+}
+.user-does .left-details p span {
+  color: #d2e280;
+  font-family: MontserratBold;
+}
+.user-does .left-details div {
+  padding: 0px;
+}
+.user-does .right-details {
+  background-color: #e85225;
+  color: #fff;
+  padding: 44px 40px 45px 40px;
+}
+.user-does .right-details h3 {
+  font-family: MontserratMedium;
+  font-size: 26px;
+  margin-bottom: 8px;
+  text-align: center;
+}
+.user-does .right-details p {
+  font-family: MontserratLight;
+  font-size: 15px;
+}
+.user-does .right-details p span {
+  color: #d2e280;
+  font-family: MontserratBold;
+}
+.user-does .right-details p.white-span {
+  margin-bottom: 22px;
+}
+.user-does .right-details p.white-span span {
+  color: #fff;
+}
+
+.homepage-diagnosis {
+  padding: 24px 0px 22px;
+  text-align: center;
+}
+.homepage-diagnosis .diagnosis-content {
+  max-width: 700px;
+  margin: auto;
+}
+.homepage-diagnosis img {
+  width: 80px;
+  height: 60px;
+}
+.homepage-diagnosis h3 {
+  font-family: MontserratMedium;
+  font-size: 26px;
+  margin: 25px 0px 20px;
+}
+.homepage-diagnosis p {
+  font-family: MontserratLight;
+  font-size: 15px;
+  margin-bottom: 19px;
+}
+.homepage-diagnosis p:last-child {
+  margin-bottom: 0px;
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .user-does .left-details {
+    padding: 27px 30px 22px 60px;
+  }
+
+  .user-does .left-details, .user-does .right-details {
+    max-height: 370px;
+    min-height: 370px;
+  }
+}
+@media (max-width: 991px) {
+  .asthma-intro .intro-content, .homepage-diagnosis .diagnosis-content {
+    padding: 0 15px;
+  }
+
+  .user-does .right-details h3 {
+    margin-bottom: 15px;
+  }
+}
+@media (min-width: 320px) and (max-width: 768px) {
+  .homepage-banner {
+    min-height: 360px;
+  }
+  .homepage-banner .download-guide {
+    margin-left: 34%;
+    bottom: 60px;
+    width: 35%;
+    top: auto;
+  }
+  .homepage-banner .download-guide h1 {
+    font-size: 28px;
+    text-shadow: 0px -1px 8px #461e1e;
+  }
+  .homepage-banner .download-guide a {
+    font-size: 12px;
+  }
+
+  .user-does .left-details p {
+    padding-top: 25px;
+  }
+  .user-does .left-details .col-sm-4 {
+    text-align: center;
+  }
+}
+@media (min-width: 320px) and (max-width: 375px) {
+  .homepage-banner .download-guide h1 {
+    font-size: 25px;
+  }
+}
+@media (min-width: 320px) and (max-width: 600px) {
+  .user-does .left-details {
+    text-align: center;
+    display: block;
+    padding: 44px 30px 40px 30px;
+  }
+  .user-does .left-details p {
+    padding-top: 15px;
+    padding-left: 0px;
+  }
+
+  .homepage-banner .download-guide {
+    margin-left: 18%;
+    bottom: 30px;
+    width: 65%;
+    top: auto;
+    padding: 10px 20px 10px 20px;
+  }
+}
+@media (min-width: 1200px) {
+  .user-does .left-details, .user-does .right-details {
+    max-height: 273px;
+    min-height: 273px;
+  }
+}
+/*Symptoms page*/
+.symptoms-content {
+  padding: 0px;
+}
+.symptoms-content .symptoms-left {
+  padding: 0px;
+}
+.symptoms-content .symptoms-right {
+  background-color: #1abcd5;
+  color: #fff;
+  padding: 56px 76px 40px 76px;
+  text-align: center;
+}
+.symptoms-content .symptoms-right img {
+  width: 58px;
+  height: 45px;
+}
+.symptoms-content .symptoms-right h3 {
+  font-family: MontserratMedium;
+  font-size: 26px;
+  margin: 22px 0 18px;
+}
+.symptoms-content .symptoms-right p {
+  font-family: MontserratLight;
+  font-size: 16px;
+  text-align: left;
+}
+.symptoms-content .symptoms-right ul {
+  text-align: left;
+  padding-left: 18px;
+}
+.symptoms-content .symptoms-right ul li {
+  font-family: MontserratLight;
+  font-size: 15px;
+  margin-bottom: 2px;
+}
+
+.asthma-diagnosis {
+  background-color: #3f4041;
+  color: #fff;
+  padding: 24px 0px;
+  text-align: center;
+}
+.asthma-diagnosis .asthma-diagnosis-head, .asthma-diagnosis .diagnosis-details {
+  max-width: 990px;
+  margin: auto;
+}
+.asthma-diagnosis .asthma-diagnosis-head img {
+  height: 60px;
+  width: 80px;
+}
+.asthma-diagnosis .asthma-diagnosis-head h3 {
+  font-family: MontserratMedium;
+  font-size: 26px;
+  color: #1abcd5;
+  margin: 11px 0px 15px;
+}
+.asthma-diagnosis .asthma-diagnosis-head p {
+  font-family: MontserratRegular;
+  font-size: 15px;
+  color: #fff;
+  text-align: left;
+  margin-bottom: 22px;
+}
+.asthma-diagnosis .asthma-diagnosis-head p span {
+  color: #1abcd5;
+  font-family: MontserratMedium;
+}
+.asthma-diagnosis .diagnosis-details {
+  overflow: hidden;
+  clear: both;
+}
+.asthma-diagnosis .diagnosis-details img {
+  height: 66px;
+  margin-top: 10px;
+  width: 66px;
+}
+.asthma-diagnosis .diagnosis-details p {
+  font-family: MontserratRegular;
+  font-size: 15px;
+  color: #fff;
+  text-align: left;
+  margin-left: 5px;
+}
+.asthma-diagnosis .diagnosis-details p span {
+  color: #1abcd5;
+  font-family: MontserratMedium;
+}
+.asthma-diagnosis .diagnosis-details div {
+  margin-bottom: 22px;
+  padding: 0;
+}
+.asthma-diagnosis .diagnosis-details div ul {
+  list-style-type: none;
+  margin-top: 25px;
+}
+.asthma-diagnosis .diagnosis-details div ul li {
+  margin-bottom: 25px;
+  padding-left: 50px;
+}
+.asthma-diagnosis .diagnosis-details div ul li::before {
+  content: "\2022";
+  color: #1abcd5;
+  margin-left: -1em;
+  float: left;
+  font-size: 22px;
+  margin-top: -5px;
+}
+.asthma-diagnosis .diagnosis-details div ul li p {
+  margin-left: 0px;
+}
+.asthma-diagnosis .diagnosis-details div:last-child {
+  margin-bottom: 0px;
+}
+
+@media (min-width: 1200px) {
+  .symptoms-content .symptoms-right, .symptoms-content .symptoms-left, .symptoms-content .symptoms-left img {
+    max-height: 380px;
+    min-height: 380px;
+  }
+}
+@media (max-width: 1200px) {
+  .symptoms-content .symptoms-right {
+    padding: 32px 65px 21px 65px;
+  }
+
+  .asthma-diagnosis-head, .diagnosis-details {
+    padding: 0px 15px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1200px) {
+  .symptoms-content .symptoms-left img, .symptoms-content .symptoms-right {
+    min-height: 328px;
+  }
+}
+@media (max-width: 500px) {
+  .symptoms-content .symptoms-right {
+    padding: 36px 40px 21px 40px;
+  }
+}
+@media (max-width: 991px) {
+  .diagnosis-details p {
+    margin-left: 0px;
+  }
+
+  .asthma-diagnosis .diagnosis-details div ul li {
+    padding-left: 30px;
+  }
+}
+/*Misdiagnosing page*/
+.misdiag-container {
+  padding: 0px;
+}
+.misdiag-container .asthma-like-conditions {
+  background-color: #3f4041;
+  color: #fff;
+  text-align: center;
+  min-height: 960px;
+  padding: 30px 48px;
+}
+.misdiag-container .asthma-like-conditions img {
+  width: 58px;
+  height: 45px;
+}
+.misdiag-container h3 {
+  color: #1abcd5;
+  font-family: MontserratMedium;
+  font-size: 26px;
+  margin: 22px 0 18px;
+}
+.misdiag-container p {
+  color: #fff;
+  font-family: MontserratRegular;
+  font-size: 15px;
+  padding-bottom: 25px;
+  text-align: left;
+}
+.misdiag-container ul {
+  padding-left: 40px;
+  padding-bottom: 25px;
+}
+.misdiag-container ul li {
+  color: #fff;
+  font-family: MontserratRegular;
+  font-size: 15px;
+  text-align: left;
+  line-height: 23px;
+}
+.misdiag-container .misdiagnosing-asthma {
+  background-color: #1abcd5;
+  text-align: center;
+  min-height: 960px;
+  padding: 0;
+}
+.misdiag-container .misdiagnosing-asthma .misdiagnosing {
+  padding: 30px 48px;
+}
+.misdiag-container .misdiagnosing-asthma .diagnosis-white {
+  height: 60px;
+  width: 80px;
+}
+.misdiag-container .misdiagnosing-asthma h3 {
+  color: #fff;
+  font-family: MontserratMedium;
+  font-size: 26px;
+}
+.misdiag-container .misdiagnosing-asthma img {
+  max-height: 300px;
+}
+
+@media (min-width: 768px) {
+  .misdiag-container .asthma-like-conditions, .misdiag-container .misdiagnosing-asthma {
+    max-height: 960px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .misdiag-container .misdiagnosing-asthma img.img-banner {
+    min-height: 283px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .misdiag-container .asthma-like-conditions {
+    max-height: 1030px;
+    padding: 30px 20px 30px 30px;
+  }
+  .misdiag-container .misdiagnosing-asthma {
+    max-height: 1030px;
+  }
+  .misdiag-container .misdiagnosing-asthma .misdiagnosing {
+    padding: 30px 30px;
+  }
+  .misdiag-container .misdiagnosing-asthma img.img-banner {
+    min-height: 243px;
+  }
+}
+@media (min-width: 0px) and (max-width: 767px) {
+  .misdiag-container .asthma-like-conditions {
+    min-height: 0px;
+    padding: 30px 30px;
+  }
+  .misdiag-container .misdiagnosing-asthma .misdiagnosing {
+    padding: 30px 30px;
+  }
+}
+@media (min-width: 1200px) {
+  .misdiag-container .misdiagnosing-asthma img.img-banner {
+    min-height: 300px;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */
