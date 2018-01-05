@@ -31,7 +31,6 @@ get_header();
 					<li>Heart attack</li>
 					<li>Hiatal hernia</li>
 				</ul>
-				<p>If your asthma diagnosis is in question, take advantage of objective tests to confirm or rule out an asthma diagnosis. Don’t be afraid to ask your doctor questions. If your treatment plan doesn’t seem to be working, let your doctor know.</p>
 			</div>
 		</div>
 
@@ -47,7 +46,30 @@ get_header();
 					<h3>Misdiagnosing Asthma</h3>
 					<p>Whether you have asthma or another condition, the right diagnosis means better quality of life. Following the right treatment plan can improve your physical, mental and financial well-being.</p>
 					<p>With some conditions, the right diagnosis can be the difference between life and death. Some conditions need to be treated quickly and properly. If you have been misdiagnosed with asthma, you may be using long-term medicines that are not helpful. You would not be receiving treatment for the true cause of your symptoms. Taking certain unnecessary asthma medicines (such as steroids) may be harmful over extended periods of time. Misdiagnosis can also lead to unnecessary dollars and time spent managing and treating the wrong problem.</p>
-					<p>Your doctor and you both have the same goal: for you to feel well and be healthy. Partner with your doctor to verify your asthma diagnosis for better health.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container-fluid iia-fluid misdiag-two-grid">
+		<div class="col-md-6 col-sm-12 left-grid">
+			<div class="left-container left-details">
+				<div class="col-sm-12">
+					<img src="<?php echo THEME_URL.'/assets/images/personal-yellow.png';?>"></img>
+				</div>
+				<div class="col-sm-12">
+					<p><span>If your asthma diagnosis is in question, take advantage of objective tests to confirm or rule out an asthma diagnosis.</span></p>
+					<p>Don’t be afraid to ask your doctor questions. If your treatment plan doesn’t seem to be working, let your doctor know.</p>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-6 col-sm-12 right-grid">
+			<div class="right-container right-details">
+				<div class="col-sm-12">
+					<img src="<?php echo THEME_URL.'/assets/images/hand.png';?>"></img>
+				</div>
+				<div class="col-sm-12">
+					<p><span>Your doctor and you both have the same goal: for you to feel well and be healthy.</span></p>
+					<p>Partner with your doctor to verify your asthma diagnosis for better health.</p>
 				</div>
 			</div>
 		</div>

@@ -345,11 +345,11 @@ img {
 .home-two-grid{
 	.left-grid{
 		background:#1abcd5;
-    	min-height: 273px;
-    	padding: 0px;
+		min-height: 273px;
+		padding: 0px;
 		overflow: hidden;
 
-    	.left-details {
+		.left-details {
 			background-color: #1abcd5;
 			padding: 44px 30px 40px 60px;
 			clear: both;
@@ -565,7 +565,7 @@ img {
 .symptoms-fluid{
 	padding: 0px;
 	.left-grid{
-		background: #264E8E;
+		background: #21366b;
 		padding: 0px;
 		.symptoms-left {
 			padding: 0px;
@@ -578,7 +578,7 @@ img {
 		.symptoms-right {
 			background-color: #1abcd5;
 			color: #fff;
-			padding: 69px 76px 40px 76px;
+			padding: 60px 76px 40px 76px;
 			text-align: center;
 
 			img {
@@ -596,14 +596,21 @@ img {
 				font-family: MontserratLight;
 				font-size: 16px;
 				text-align: left;
+				color: #d2e280;
 			}
 			ul {
 				text-align: left;
-				padding-left: 18px;
+				padding-left: 0px;
 				li {
 					font-family: MontserratLight;
 					font-size: 15px;
 					margin-bottom: 2px;
+				}
+			}
+			.col-sm-6 {
+				padding: 0px;
+				.next-ul {
+					margin-left: 20px;
 				}
 			}
 		}
@@ -611,12 +618,18 @@ img {
 }
 
 .asthma-diagnosis-fluid{
-	background-color: #3f4041;
+	&.head-bg {
+		background-color: #515254;
+		padding: 15px 0px 4px;
+	}
+	&.content-bg {
+		background-color: #414344;
+		padding: 15px 0px 4px;
+	}
 	.asthma-diagnosis {
-		background-color: #3f4041;
 		color: #fff;
-		padding: 24px 0px;
 		text-align: center;
+		padding: 0;
 
 		.asthma-diagnosis-head, .diagnosis-details {
 			max-width: 990px;
@@ -624,6 +637,7 @@ img {
 		}
 
 		.asthma-diagnosis-head{
+			padding-top: 24px;
 			img {
 				height: 60px;
 				width: 80px;
@@ -632,7 +646,7 @@ img {
 			h3 {
 				font-family: MontserratMedium;
 				font-size: 26px;
-				color: #1abcd5;
+				color: #d2e280;
 				margin: 11px 0px 15px;
 			}
 
@@ -644,7 +658,7 @@ img {
 				margin-bottom: 22px;
 
 				span {
-					color: #1abcd5;
+					color: #d2e280;
 					font-family: MontserratMedium;
 				}
 			}
@@ -653,6 +667,7 @@ img {
 		.diagnosis-details {
 			overflow: hidden;
 			clear: both;
+			padding: 0px;
 
 			img {
 				height: 66px;
@@ -697,7 +712,6 @@ img {
 						}
 					}
 				}
-
 				&:last-child {
 					margin-bottom: 0px;
 				}
@@ -717,9 +731,6 @@ img {
 @media (max-width:1200px) {
 	.symptoms-fluid .right-grid .symptoms-right {
 		padding: 32px 65px 21px 65px;
-	}
-	.asthma-diagnosis-head, .diagnosis-details {
-		padding: 0px 15px;
 	}
 }
 @media (min-width:768px) and (max-width:1200px) {
@@ -743,7 +754,20 @@ img {
 	.asthma-diagnosis .diagnosis-details div ul li {
 		padding-left: 30px;
 	}
-	
+
+	.symptoms-fluid .right-grid .symptoms-right .col-sm-6 .next-ul {
+		margin-left: 40px;
+	}
+}
+@media (max-width:768px) {
+
+	.symptoms-fluid .right-grid .symptoms-right .col-sm-6 .next-ul {
+		margin-left: 0px;
+	}
+
+	.asthma-diagnosis-fluid .asthma-diagnosis {
+		padding: 0 15px;
+	}
 }
 
 /*Misdiagnosing page*/
@@ -756,7 +780,7 @@ img {
 			background-color: #3f4041;
 			color: #fff;
 			text-align: center;
-			min-height: 960px;
+			min-height: 840px;
 			padding: 30px 48px;
 			img{
 				width: 58px;
@@ -793,7 +817,7 @@ img {
 		padding:0;
 		.misdiagnosing-asthma{
 			text-align: center;
-			min-height: 660px;
+			min-height: 540px;
 			padding: 0;
 			.diagnosis-white{
 				height: 60px;
@@ -830,6 +854,73 @@ img {
 		}
 	}
 }
+.misdiag-two-grid{
+	text-align: center;
+	.left-grid{
+		background: #e85225;
+		min-height: 273px;
+		padding: 0px;
+		overflow: hidden;
+
+		.left-details {
+			background-color: #e85225;
+			padding: 44px 48px 40px 48px;
+			clear: both;
+			overflow: hidden;
+
+			img {
+				width: auto;
+			}
+
+			p {
+				color: #fff;
+				font-family: MontserratMedium;
+				font-size: 15px;
+
+				span {
+					font-family: MontserratBold;
+				}
+				&:first-child {
+					margin: 15px 0px;
+				}
+			}
+
+			div {
+				padding: 0px;
+			}
+		}
+	}
+	.right-grid{
+		background-color: #fff;
+		min-height: 273px;
+		padding: 0px;
+
+		.right-details {
+			background-color: #fff;
+			color: #fff;
+			padding: 36px 48px 35px 48px;
+
+			img {
+				width: 80px;
+			}
+
+			p {
+				font-family: MontserratLight;
+				font-size: 15px;
+				color: #000;
+
+				span {
+					font-family: MontserratBold;
+				}
+
+				&:first-child {
+					margin: 15px 0px;
+				}
+
+			}
+		}
+	}
+}
 
 @media (min-width: 768px) {
 	.asthma-like-conditions, .misdiagnosing-asthma {
@@ -843,19 +934,32 @@ img {
 		}
 	}
 	.misdiag-fluid .right-grid .misdiagnosing-asthma {
-		min-height: 677px;
+		min-height: 577px;
+		max-height: 577px;
+	}
+	.misdiag-two-grid .left-grid .left-details {
+		max-height: 370px;
+		min-height: 370px;
+	}
+
+	.misdiag-two-grid .right-grid .right-details {
+		max-height: 370px;
+		min-height: 370px;
+	}
+	.misdiag-fluid .left-grid .asthma-like-conditions {
+		min-height: 860px;
 	}
 }
 @media (min-width: 768px) and (max-width: 991px){
 	.misdiag-fluid .left-grid .asthma-like-conditions{
-		max-height: 1010px;
+		min-height: 901px;
 		padding: 30px 20px 30px 30px;
 	}
 	.misdiag-fluid .right-grid .misdiagnosing-asthma {
 		padding: 30px 30px;
 	}
 	.misdiagnosing-asthma{
-		max-height: 767px;
+		max-height: 658px;
 	}
 	.right-container {
 		img.img-banner {
@@ -902,9 +1006,22 @@ img {
 	}
 }
 @media (max-width: 991px) and (min-width: 0px) {
-	.home-two-grid, .symptoms-fluid {
+	.home-two-grid, .symptoms-fluid, .misdiag-two-grid {
 		.right-container, .left-container {
 			width: 100%;
 		}
+	}
+	.misdiag-two-grid .right-grid .right-details h3 {
+		margin-bottom: 15px;
+	}
+
+	.misdiag-two-grid .left-grid .left-details {
+		p {
+			padding-left: 20px;
+		}
+	}
+
+	.misdiag-two-grid .left-grid .left-details div.col-sm-4 {
+		text-align: center;
 	}
 }

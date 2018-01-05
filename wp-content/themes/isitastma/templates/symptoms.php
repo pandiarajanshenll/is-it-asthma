@@ -16,18 +16,24 @@ get_header();
 				<img src="<?php echo THEME_URL.'/assets/images/liver-red.png';?>"></img>
 				<h3>Asthma Symptoms</h3>
 				<p>Common symptoms of asthma include:</p>
-				<ul>
-					<li>Coughing</li>
-					<li>Wheezing (a whistling, squeaky sound when you breathe)</li>
-					<li>Shortness of breath</li>
-					<li>Rapid breathing</li>
-					<li>Chest tightness</li>
-				</ul>
+				<div class="col-sm-6">
+					<ul>
+						<li>Coughing</li>
+						<li>Wheezing (a whistling, squeaky sound when you breathe)</li>
+					</ul>
+				</div>
+				<div class="col-sm-6">
+					<ul class="next-ul">
+						<li>Shortness of breath</li>
+						<li>Rapid breathing</li>
+						<li>Chest tightness</li>
+					</ul>
+				</div>
 			</div>
 		</div>
 	</div>
 
-	<div class="container-fluid iia-fluid asthma-diagnosis-fluid">
+	<div class="container-fluid iia-fluid asthma-diagnosis-fluid head-bg">
 		<div class="container symptoms-container">
 			<div class="col-md-12 asthma-diagnosis">
 				<div class="asthma-diagnosis-head">
@@ -36,6 +42,12 @@ get_header();
 					<p>To diagnose asthma, your doctor will discuss your medical history and symptoms with you. They will also perform a physical exam. You may also take lung function tests.</p>
 					<p><span>Common tools to diagnose asthma include:</span></p>
 				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container-fluid iia-fluid asthma-diagnosis-fluid content-bg">
+		<div class="container symptoms-container">
+			<div class="col-md-12 asthma-diagnosis">
 				<div class="diagnosis-details">
 					<div class="col-md-1 col-sm-2 col-xs-12">
 						<img src="<?php echo THEME_URL.'/assets/images/personal.png';?>">
@@ -43,12 +55,28 @@ get_header();
 					<div class="col-md-11 col-sm-10 col-xs-12">
 						<p><span> Personal and medical history.</span> Your doctor will ask you questions to understand your symptoms and their causes. Bring notes to help jog your memory. Be ready to answer questions about your family history, the medicines you take and your lifestyle. This includes any current physical problems. Shortness of breath, wheezing, coughing and tightness in your chest may be due to asthma, but can be due to other diseases as well.</p>
 					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container-fluid iia-fluid asthma-diagnosis-fluid head-bg">
+		<div class="container symptoms-container">
+			<div class="col-md-12 asthma-diagnosis">
+				<div class="diagnosis-details">
 					<div class="col-md-1 col-sm-2 col-xs-12">
 						<img src="<?php echo THEME_URL.'/assets/images/physical.png'; ?>">
 					</div>
 					<div class="col-md-11 col-sm-10 col-xs-12">
 						<p><span> Physical examination. </span>If your doctor thinks you have asthma, they will do a physical exam. They will look at your ears, eyes, nose, throat, skin, chest and lungs. This exam may include a lung function test to see how well you exhale air from your lungs. It may also include a skin test or an X-ray of your lungs or sinuses. A physical exam then allows your doctor to review your health.</p>
 					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container-fluid iia-fluid asthma-diagnosis-fluid content-bg">
+		<div class="container symptoms-container">
+			<div class="col-md-12 asthma-diagnosis">
+				<div class="diagnosis-details">
 					<div class="col-md-1 col-sm-2 col-xs-12">
 						<img src="<?php echo THEME_URL.'/assets/images/lungs.png'; ?>">
 					</div>
