@@ -1,5 +1,8 @@
 	<!-- footer start -->
 	<div class="container-fluid footer-fluid">
+		<div class="footer-shadow">
+			<img src="<?php echo THEME_URL.'/assets/images/shadow.png';?>">
+		</div>
 		<div class="container  footer-container">
 			<div class="col-md-10 col-sm-8 col-xs-12">
 			<?php if(is_front_page()) {

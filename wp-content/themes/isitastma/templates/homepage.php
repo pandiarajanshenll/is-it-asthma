@@ -8,7 +8,7 @@ get_header();
 			<div class="col-md-12 homepage-banner">
 				<div class="download-guide">
 					<h1>Is It Asthma?</h1>
-					<p><a href="javascript:">DOWNLOAD THE GUIDE</a></p>
+					<p id="download-guide"><a><?php echo do_shortcode ('[download id="108"]');?></a></p>
 				</div>
 			</div>
 		</div>
@@ -33,7 +33,7 @@ get_header();
 					<img src="<?php echo THEME_URL.'/assets/images/user.png';?>"></img>
 				</div>
 				<div class="col-sm-8">
-					<p>In some cases, people are misdiagnosed with asthma when they actually have a different condition. Recently, Canadian researchers studied more than 600 adults diagnosed with asthma in the past 5 years. <span>They found that about one-third of them didn’t truly have asthma.</span></p>
+					<p>In some cases, people are misdiagnosed with asthma when they actually have a different condition. Recently, researchers studied more than 600 adults diagnosed with asthma in the past 5 years. <span>They found that about one-third of them didn’t truly have asthma.<sup>1</sup></span></p>
 				</div>
 			</div>
 		</div>
@@ -45,20 +45,16 @@ get_header();
 			</div>
 		</div>
 	</div>
-
-	<div class="container homepage-container">
-		
-		
-		
-		<div class="col-md-12 homepage-diagnosis">
-			<div class="diagnosis-content">
-				<img src="<?php echo THEME_URL.'/assets/images/diagnosis.png'; ?>"></img>
-				<h3>To get the right care, you need the right diagnosis.</h3>
-				<p>It might be obvious, but for asthma treatments to work, you truly need to have asthma. If you’ve been misdiagnosed, you might be trying to treat a condition you don’t have – and at the same time possibly ignoring a condition you really have!</p>
-				<p>Work with your doctor to get the right diagnosis. If you’ve been told you have asthma but have not had objective testing, see a board-certified allergist, immunologist or pulmonologist to get tested and properly diagnosed.</p>
+	<div class="container-fluid diagnosis-fluid">
+		<div class="container homepage-container">
+			<div class="col-md-12 homepage-diagnosis">
+				<div class="diagnosis-content">
+					<img src="<?php echo THEME_URL.'/assets/images/diagnosis.png'; ?>"></img>
+					<h3>To get the right care, you need the right diagnosis.</h3>
+					<p>It might be obvious, but for asthma treatments to work, you truly need to have asthma. If you’ve been misdiagnosed, you might be trying to treat a condition you don’t have – and at the same time possibly ignoring a condition you really have!</p>
+					<p>Work with your doctor to get the right diagnosis. If you’ve been told you have asthma but have not had objective testing, see a board-certified allergist, immunologist or pulmonologist to get tested and properly diagnosed.</p>
+				</div>
 			</div>
 		</div>
 	</div>
 	<?php get_footer();?>
-</body>
-</html>

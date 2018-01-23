@@ -27,6 +27,7 @@ function astmafn_frontend_styles() {
     wp_enqueue_style( 'bootstrap', THEME_URL.'/assets/css/bootstrap.min.css' );
     wp_enqueue_style( 'custom', THEME_URL.'/assets/css/main.css' );
     wp_enqueue_script( 'bootstrap', THEME_URL.'/assets/js/bootstrap.min.js', array('jquery'), null, true );
+    wp_enqueue_script( 'custom', THEME_URL.'/assets/js/isitasthma.js', array('jquery'), null, true );
 }
 add_action( 'wp_enqueue_scripts', 'astmafn_frontend_styles' );
 

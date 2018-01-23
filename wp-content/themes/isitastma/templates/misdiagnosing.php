@@ -5,7 +5,10 @@ get_header();
 	<div class="container-fluid iia-fluid misdiag-fluid">
 		<div class="col-md-6 col-sm-6 col-xs-12 left-grid">
 			<div class="left-container asthma-like-conditions">
-				<img src="<?php echo THEME_URL.'/assets/images/liver-red.png'; ?>">
+				<div class="download-guide">
+					<h1>Is It Asthma?</h1>
+					<p id="download-guide"><a><?php echo do_shortcode ('[download id="108"]');?></a></p>
+				</div>
 				<h3>Asthma-like Conditions</h3>
 				<p>Because there are so many conditions that have some of the same symptoms of asthma, it’s very important to make sure you’re getting the right diagnosis.</p>
 				<p>Here are some other health issues that can cause symptoms similar to asthma:</p>
@@ -42,10 +45,10 @@ get_header();
 			</div>
 			<div class="col-xs-12 page-content">
 				<div class="right-container misdiagnosing misdiagnosing-asthma">
-					<img src="<?php echo THEME_URL.'/assets/images/diagnosis-white.png'; ?>" class="diagnosis-white">
+					<img src="<?php echo THEME_URL.'/assets/images/diagnosis.png'; ?>" class="diagnosis-white">
 					<h3>Misdiagnosing Asthma</h3>
 					<p>Whether you have asthma or another condition, the right diagnosis means better quality of life. Following the right treatment plan can improve your physical, mental and financial well-being.</p>
-					<p>With some conditions, the right diagnosis can be the difference between life and death. Some conditions need to be treated quickly and properly. If you have been misdiagnosed with asthma, you may be using long-term medicines that are not helpful. You would not be receiving treatment for the true cause of your symptoms. Taking certain unnecessary asthma medicines (such as steroids) may be harmful over extended periods of time. Misdiagnosis can also lead to unnecessary dollars and time spent managing and treating the wrong problem.</p>
+					<p>With some conditions, the right diagnosis can be the difference between life and death. Some conditions need to be treated quickly and properly. If you have been misdiagnosed with asthma, you may be using long-term medicines that are not helpful. You would not be receiving treatment for the true cause of your symptoms. Taking certain asthma medicines (such as steroids) unnecessarily may be harmful over extended periods of time. Misdiagnosis can also lead to unnecessary dollars and time spent managing and treating the wrong problem.</p>
 				</div>
 			</div>
 		</div>
