@@ -7,7 +7,7 @@ get_header();
 			<div class="left-container asthma-like-conditions">
 				<div class="download-guide">
 					<h1>Is It Asthma?</h1>
-					<p id="download-guide"><a><?php echo do_shortcode ('[download id="108"]');?></a></p>
+					<p id="download-guide"><a><?php echo do_shortcode ('[download id="116"]');?></a></p>
 				</div>
 				<h3>Asthma-like Conditions</h3>
 				<p>Because there are so many conditions that have some of the same symptoms of asthma, it’s very important to make sure you’re getting the right diagnosis.</p>
@@ -35,6 +35,19 @@ get_header();
 					<li>Hiatal hernia</li>
 				</ul>
 			</div>
+			<div class="col-xs-12 misdiag-two-grid">
+				<div class="left-grid">
+					<div class="left-container left-details">
+						<div class="col-sm-12">
+							<img src="<?php echo THEME_URL.'/assets/images/personal-yellow.png';?>"></img>
+						</div>
+						<div class="col-sm-12">
+							<p><span>If your asthma diagnosis is in question, take advantage of objective tests to confirm or rule out an asthma diagnosis.</span></p>
+							<p>Don’t be afraid to ask your doctor questions. If your treatment plan doesn’t seem to be working, let your doctor know.</p>
+						</div>
+					</div>
+				</div>
+			</div>
 		</div>
 
 		<div class="col-md-6 col-sm-6 col-xs-12 right-grid">
@@ -51,28 +64,17 @@ get_header();
 					<p>With some conditions, the right diagnosis can be the difference between life and death. Some conditions need to be treated quickly and properly. If you have been misdiagnosed with asthma, you may be using long-term medicines that are not helpful. You would not be receiving treatment for the true cause of your symptoms. Taking certain asthma medicines (such as steroids) unnecessarily may be harmful over extended periods of time. Misdiagnosis can also lead to unnecessary dollars and time spent managing and treating the wrong problem.</p>
 				</div>
 			</div>
-		</div>
-	</div>
-	<div class="container-fluid iia-fluid misdiag-two-grid">
-		<div class="col-md-6 col-sm-12 left-grid">
-			<div class="left-container left-details">
-				<div class="col-sm-12">
-					<img src="<?php echo THEME_URL.'/assets/images/personal-yellow.png';?>"></img>
-				</div>
-				<div class="col-sm-12">
-					<p><span>If your asthma diagnosis is in question, take advantage of objective tests to confirm or rule out an asthma diagnosis.</span></p>
-					<p>Don’t be afraid to ask your doctor questions. If your treatment plan doesn’t seem to be working, let your doctor know.</p>
-				</div>
-			</div>
-		</div>
-		<div class="col-md-6 col-sm-12 right-grid">
-			<div class="right-container right-details">
-				<div class="col-sm-12">
-					<img src="<?php echo THEME_URL.'/assets/images/hand.png';?>"></img>
-				</div>
-				<div class="col-sm-12">
-					<p><span>Your doctor and you both have the same goal: for you to feel well and be healthy.</span></p>
-					<p>Partner with your doctor to verify your asthma diagnosis for better health.</p>
+			<div class="col-xs-12 misdiag-two-grid">
+				<div class="col-xs-12 right-grid">
+					<div class="right-container right-details">
+						<div class="col-sm-12">
+							<img src="<?php echo THEME_URL.'/assets/images/hand.png';?>"></img>
+						</div>
+						<div class="col-sm-12">
+							<p><span>Your doctor and you both have the same goal: for you to feel well and be healthy.</span></p>
+							<p>Partner with your doctor to verify your asthma diagnosis for better health.</p>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>

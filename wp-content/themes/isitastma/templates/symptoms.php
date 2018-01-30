@@ -9,7 +9,7 @@ get_header();
 			<div class="left-container symptoms-left">
 				<div class="download-guide">
 					<h1>Is It Asthma?</h1>
-					<p id="download-guide"><a><?php echo do_shortcode ('[download id="108"]');?></a></p>
+					<p id="download-guide"><a><?php echo do_shortcode ('[download id="116"]');?></a></p>
 				</div>
 				<h3>Asthma Symptoms</h3>
 				<p>Common symptoms of asthma include:</p>
